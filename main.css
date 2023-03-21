@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.next{
+    max-width: 100%;
+    height: 600px;
+    background-image: url(imagens/mobile-app-interface-development-cross-platform-concept-software-program-web-page-design-and-database-processing-vector.webp);
+    background-size: cover;
+}
+h1{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+    display: flex;
+}
+
+span{
+    color: black;
+}
+
+.name{
+    font-size: 40px;
+    color: #00FA9A;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 60% 50%;
+    width: 100%;
+}
+
+nav{
+   display: flex;
+   align-items: center;
+   padding-top: 30px;
+   margin-right: 60px;
+}
+
+nav a, button a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 20px;
+}
+#contrucao{
+ padding-left: 20px;  
+ font-weight: bold;
+}
+h2{
+    padding-top: 200px;
+    padding-left: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.sec{
+    box-shadow: inset #6A5ACD 0px 4px 10px 0px;
+    background-color: #5F9EA0;
+    display: flex;
+    padding-bottom: 20px;
+
+}
+
+.quem-sou{
+    color: #fff;
+    width: 600px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.skills{
+    width: 600px;
+    padding-left: 70px;
+    padding-top: 50px;
+    color: #fff;
+   
+}
+
+.skills h3{
+    padding-left: 40px;
+}
+
+h3{
+    color: black;
+    padding-bottom: 60px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.tecnologias{
+    display: flex;
+    max-width: 600px;
+    flex-wrap: wrap;
+
+}
+.card{
+    margin-top: 20px;
+   padding-left: 40px;
+}
+.card img{
+  width: 70px;
+}
+
+.card p{
+    text-align: center;
+}
+#Projetos{
+    background-image: url(imagens/web-development-application-design-coding-and-programming-on-laptop-and-smartphone-concept-with-programming-language-and-program-code-and-layout-on-screen-vector.webp);
+    padding-bottom: 40px;
+    max-width: 100%;
+}
+
+h4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #90EE90;
+}
+
+.Projet{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+.Projet div{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 50px 20px;
+    
+}
+.Projet div button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #A9A9A9;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.Projet div button:hover{
+    background-color: #fff;
+}
+.Projet div button a{
+  color: black;
+  cursor: pointer;
+ 
+}
+img{
+    width: 400px;
+    border-radius: 7px;
+
+}
+.Projet div img{
+    width: 400px;
+    height: 260px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lest{
+    width: 50px;
+}
+
+footer{
+    height: 100px;
+    border-top: 1px solid #ccc;
+    color: #fff;
+    display: flex;
+    background-image: url('imagens/web-development-application-design-coding-and-programming-on-laptop-and-smartphone-concept-with-programming-language-and-program-code-and-layout-on-screen-vector.webp')
+}
+
+footer p{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.redes{
+    padding-left: 20px;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+#email{
+    padding-left: 5%;
+    margin: 20px;
+    display: flex;
+}
+
+#email p{
+  padding: 20px;
+}
+@media screen and (max-width: 797px){
+    nav{
+        display: none;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body{
+        overflow-x: hidden;
+    }
+    #email{
+        display: none;
+    }
+    #Projetos{
+        max-width: 100%;
+    }
+    .sec{
+        display: block;
+    }
+    .card{
+        padding: 0 20px;
+    }
+    .card img{
+        width: 30px;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    .skills{
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skills h3{
+        padding-left: 20px;
+    }
+    .quem-sou{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .quem-sou p{
+        font-size: 14px;
+        width: 90%;
+    }
+    .Projet img{
+        width: 80%;
+    }
+
+
+}
